@@ -22,6 +22,7 @@ app.use(bodyParser.json());
 dotenv.config();
 const allowedOrigins = [
   'http://localhost:5173',
+  'https://pet-acc-frontend.vercel.app/',
 ];
 
 app.use((req, res, next) => {
